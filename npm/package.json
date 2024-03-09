@@ -1,5 +1,5 @@
 {
-  "name": "circom2",
+  "name": "circom2mpc",
   "version": "0.2.16",
   "description": "Circom 2.0 in WebAssembly",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": "https://github.com/vuvoth/circom-2-arithc",
   "bin": {
-    "circom2": "./cli.js"
+    "circom2mpc": "./cli.js"
   },
   "engines": {
     "node": ">=15"

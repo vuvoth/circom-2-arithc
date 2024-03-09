@@ -6,7 +6,7 @@ const binFileUtils = require('@iden3/binfileutils')
 const r1csfile = require('r1csfile')
 
 function circom2(args) {
-    const cmd = path.join('../', require('../package.json')['bin']['circom2'])
+    const cmd = path.join('../', require('../package.json')['bin']['circom2mpc'])
     console.log(cmd);
     return execSync(cmd + ' ' + args, {
         cwd: __dirname,
