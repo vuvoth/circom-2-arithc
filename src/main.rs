@@ -12,7 +12,7 @@ use std::{
 };
 
 fn main() -> Result<(), ProgramError> {
-    dotenv().expect("Failed to initialize environment");
+    // dotenv().expect("Failed to initialize environment");
     init_from_env("LOG_LEVEL=info");
 
     let output_path = PathBuf::from(view().value_of("output").unwrap());
